@@ -51,6 +51,7 @@ def Reset():
 tk.Label(screen, text="Message",font=("Arial",10,"bold")).place(x=60,y=60)
 tk.Label(screen, text="Key",font=("Arial",10,"bold")).place(x=60,y=100)
 tk.Label(screen, text="Mode",font=("Arial",10,"bold")).place(x=60,y=140)
+
 tk.Entry(screen, textvariable=Text, font=("Arial",10,"normal"), bg="lightgreen",fg="black").place(x=200,y=60)
 tk.Entry(screen, textvariable=Key, font=("Arial",10,"normal"), bg="lightgreen", fg="black").place(x=200,y=100)
 tk.Entry(screen, textvariable=Mode, font=("Arial",10,"normal"), bg="lightgreen", fg="black").place(x=200,y=140)
